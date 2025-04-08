@@ -1,26 +1,25 @@
 class RegistrationPageLocators:
-    name_field = "//label[text()='Имя']/../input"
-    email_field = "//label[text()='Email']/../input"
-    password_field = "//input[@type='password']"
-    register_button = "//button[contains(@class, 'button_type_primary')]"
-    error_message = "//p[contains(@class, 'input__error')]"
-    login_link = "//a[contains(@class, 'Auth_link')]"
+    NAME_FIELD = "//label[text()='Имя']/../input"
+    EMAIL_FIELD = "//label[text()='Email']/../input"
+    PASSWORD_FIELD = "//input[@type='password']"
+    REGISTER_BUTTON = "//button[contains(@class, 'button_type_primary')]"
+    ERROR_MESSAGE = "//p[contains(@class, 'input__error')]"
+    LOGIN_LINK = "//a[contains(@class, 'Auth_link')]"
 
 class LoginPageLocators:
-    login_form = "//h2[text()='Вход']/.."
-    login_btn = "//button[contains(@class, 'button_button')]"
+    LOGIN_FORM = "//h2[text()='Вход']/.."
+    LOGIN_BTN = "//button[contains(@class, 'button_button')]"
 
 class HomePageLocators:
-    login_btn = "//button[contains(@class, 'button_button')]"
-    order_btn = "//button[contains(@class, 'button_button')]"
-    profile_link = "// p[text() = 'Личный Кабинет'] /.."
-    bread_tab = "//span[text()='Булки']/.."
-    sauce_tab = "//span[text()='Соусы']/.."
-    ingredients_tab = "//span[text()='Начинки']/.."
+    LOGIN_BTN = "//button[contains(@class, 'button_button')]"
+    ORDER_BTN = "//button[contains(@class, 'button_button')]"
+    PROFILE_LINK = "// p[text() = 'Личный Кабинет'] /.."
+    BREAD_TAB = "//span[text()='Булки']/.."
+    SAUCE_TAB = "//span[text()='Соусы']/.."
+    INGREDIENTS_TAB = "//span[text()='Начинки']/.."
 
 class RestorePageLocators:
-    login_link = "//a[contains(@class, 'Auth_link')]"
+    LOGIN_LINK = "//a[contains(@class, 'Auth_link')]"
 
 class ProfilePageLocators:
-    logout_btn = "//button[contains(@class, 'Account_button')]"
-
+    LOGOUT_BTN = "//button[contains(@class, 'Account_button')]"

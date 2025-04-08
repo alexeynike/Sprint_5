@@ -1,0 +1,5 @@
+main_url = "https://stellarburgers.nomoreparties.site"
+endpoint_url = "/register"
+login = "test12345@gmail.com"
+password = "test1234qwerty123"
+active_class = "tab_tab_type_current__2BEPc"
